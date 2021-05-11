@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="parcial.html">Home</a></li>
+            <li><a href="nosotros.html">Acerca</a></li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    <section id="Logo">
+        <img src="img/ICono.png" width="100px" alt="">
+    </section>
+    <div>
+    </div>
+    <section id="main-content">
+        <h1 id="servicio">Formulario de Contacto</h1>
+        <div class="CuboMaps"></div>
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="pnombre">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="pnombre" name="primernombre" placeholder="Tu Nombre">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Aapellidos">Apellidos</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="Aapellidos" name="apellidos" placeholder="Tus Apellidos">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="ciudad">Ciudad</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="ciudad" name="ciudad">
+                    <option value="SantaCruz">Santa Cruz</option>
+                    <option value="Lapaz">La Paz</option>
+                    <option value="Cochabamba">Cochabamba</option>
+                    <option value="Cochabamba">Pando</option>
+                    <option value="Cochabamba">Oruro</option>
+                    <option value="Cochabamba">Beni</option>
+                  </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Genero">Genero</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="radio" id="Masculino" name="genero" value="Masculino">
+                        <label for="Masculino">Masculino</label><br>
+                        <input type="radio" id="Femenino" name="genero" value="Femenino">
+                        <label for="Femenino">Femenino</label><br>
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="Mensaje">Mensaje</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="Mensaje" name="Mensaje" placeholder="Escribe Algo.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="terminos">Acepta terminos y Condiciones?</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="checkbox" name="acep" value="Acepto">
+                        <label class="container">Acepto
+                        <span class="checkmark"></span>
+                      </label>
+                        <button type="button" class="buttonservicio" Onclick="getData()">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <iframe class="Google" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15195.124556992349!2d-63.144315999999996!3d-17.8019802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1605974654687!5m2!1ses!2sbo" frameborder="0" style="border:0;"
+        allowfullscreen="right" aria-hidden="false" tabindex="0"></iframe></iframe>
+    </div>
+</body>
+
+</html>
